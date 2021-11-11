@@ -1,5 +1,3 @@
-package com.geekbrains;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -16,7 +14,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Parent parent = FXMLLoader.load(getClass().getResource("window.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource("/window.fxml"));
         primaryStage.setScene(new Scene(parent));
         primaryStage.show();
 
