@@ -11,6 +11,7 @@
     <modules>
         <module>cloud_Storage.client</module>
         <module>cloud_Storage.server</module>
+        <module>cloud_Storage.common</module>
     </modules>
 
     <properties>

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud_Storage.client" />
+        <module name="cloud_Storage.common" />
         <module name="cloud_Storage.server" />
       </profile>
     </annotationProcessing>
